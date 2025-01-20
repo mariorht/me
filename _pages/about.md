@@ -1,18 +1,13 @@
 ---
 layout: about
 title: About Me
-author: Johnathan Smith
+author: Mario Roos Hoefgeest Toribio
 image: assets/images/about/author.jpg
-signature: assets/images/about/signature.png
+#signature: assets/images/about/signature.png
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat.
+I am Mario Roos Hoefgeest Toribio, a passionate and experienced C++ Software Engineer specializing in computer vision and industrial inspection. With over 7 years of expertise, I have developed cutting-edge solutions for complex problems, leading projects that integrate advanced technologies like laser triangulation sensors, embedded systems, and distributed architectures.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident.
+Currently pursuing a Ph.D. in 3D inspection systems for large-scale and intricate geometries, I am driven by the challenge of merging theoretical research with practical applications. I thrive in collaborative environments, employing modern workflows like CI/CD pipelines, Dockerized environments, and agile methodologies to deliver robust and scalable software solutions.
 
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+Whether designing real-time defect detection systems or innovating processes for industrial automation, my commitment lies in pushing the boundaries of efficiency and accuracy. Beyond work, I am an avid learner and problem solver, always seeking to refine my skills and contribute to impactful projects.

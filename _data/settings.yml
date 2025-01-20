@@ -2,96 +2,50 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
+title: Mario Roos Hoefgeest Toribio
 logo:
-author: themefisher
+author: Mario
 description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
-copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+email: marioroos2502@gmail.com
 
 menu:
   - { name: About, link: "/about" }
   - { name: Blog, link: "/blog" }
-  - { name: Portfolio, link: "/portfolio" }
+#  - { name: Portfolio, link: "/portfolio" }
   - { name: Contact, link: "/contact" }
 
-#-------------------------------
-# Google Analytics Section
 
-# Analytics helps you understand who visits your website.
-# Learn more at: http://support.google.com/analytics/answer/1008065
-
-# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
-
-google-analytics: # UA-XXXXXX-X
-
-#-------------------------------
-# Comment Section (Disqus)
-
-disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 
 #-------------------------------
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Hi! I’m Mario <br> Software engineer </br>
 
 social:
-  - { icon: "ti-facebook", link: "#" }
-  - { icon: "ti-instagram", link: "#" }
-  - { icon: "ti-dribbble", link: "#" }
-  - { icon: "ti-twitter", link: "#" }
+  - { icon: "ti-github", link: "https://github.com/mariorht" }
+  - { icon: "ti-linkedin", link: "https://www.linkedin.com/in/marioroos/" }
+ # - { icon: "ti-strava", link: "https://www.strava.com/athletes/116477197" }
 
 #-------------------------------
 # About (Section and Page)
 
-# About Section
-blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-blurb-btn-link: "/about"
+# About SectionLorem
+blurb: I am Mario Roos Hoefgeest Toribio, a passionate and experienced C++ Software Engineer specializing in computer vision and industrial inspection. Currently pursuing a Ph.D. in 3D inspection systems for large-scale and intricate geometries.
 blurb-btn-name: know more
 
 # About Page
 
-# Work Process Section
-work-process:
-  - title: "Research and Plan"
-    icon: "assets/images/icons/plan.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-  - title: "Design and Develop"
-    icon: "assets/images/icons/design.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-  - title: "Deliver"
-    icon: "assets/images/icons/print.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-# My Team Section
-team:
-  - title: "Jack Schenziwe"
-    image: "assets/images/team/member-1.png"
-    designation: "Project Manager"
-
-  - title: "Julias Carlie"
-    image: "assets/images/team/member-2.png"
-    designation: "Web Developer"
-
-  - title: "John Doe"
-    image: "assets/images/team/member-3.png"
-    designation: "Designer"
 
 #-------------------------------
 # Skills Section
 
 skills-title: Skills
 skills:
-  - { name: Web Design, color: "#fdb157", value: "90%" }
-  - { name: Logo Design, color: "#9473e6", value: "60%" }
-  - { name: After Effects, color: "#bdecf6", value: "80%" }
-  - { name: Web App, color: "#ffbcaa", value: "70%" }
+  - { name: C++, color: "#fdb157", value: "90%" }
+  - { name: Python, color: "#9473e6", value: "60%" }
+  - { name: Linux, color: "#bdecf6", value: "80%" }
+  - { name: Web, color: "#ffbcaa", value: "50%" }
 
 #-------------------------------
 # Exprerience Section
@@ -99,23 +53,63 @@ skills:
 experience-title: Experience
 experience:
   - {
-      name: Junior UX Designer,
+      name: "Software Lead",
       icon: "icon-1.png",
-      date: "Jan 2007 - Feb 2009",
-      organization: "WEBEX",
+      date: "2023 - Present",
+      organization: "CIN ADVANCED SYSTEMS GROUP S.L.",
+      location: "Gijón, Spain",
+      details: [
+        "Led software development for industrial inspection projects, defining and implementing efficient workflows.",
+        "Standardized and simplified development environments through containerization (Docker).",
+        "Established CI/CD practices using GitLab and GitLab Runners, enabling efficient integration and deployment pipelines for C++ and Python projects.",
+        "Improved development processes, achieving faster and more reliable project implementation."
+      ],
+      tech_stack: [
+        "Linux", "C++", "Python", "Docker", "CI/CD", "GitLab", "OpenCV", "Qt", "PostgreSQL", "CUDA", "Jenkins"
+      ]
     }
   - {
-      name: UX & UI Designer,
+      name: "Product Owner",
       icon: "icon-2.png",
-      date: "Mar 2009 - Aug 2014",
-      organization: "AUGMEDIX",
+      date: "2021 - 2022",
+      organization: "CIN ADVANCED SYSTEMS GROUP S.L.",
+      location: "Gijón, Spain",
+      details: [
+        "Developed distributed inspection systems integrating laser triangulation sensors, industrial robots, and motion systems for real-time automotive production inspection.",
+        "Designed and implemented processes for detailed scanning, advanced data processing, and visualization, ensuring accuracy and reliability in defect detection."
+      ],
+      tech_stack: [
+        "Linux", "Qt", "OpenCV", "C++", "Multithreading", "3D Visualization", "Agile methodologies", "Kanban"
+      ]
     }
   - {
-      name: Senior UI Designer,
+      name: "Computer Vision Engineer",
       icon: "icon-3.png",
-      date: "Sep 2014 - Present",
-      organization: "THEMEFISHER",
+      date: "2018 - 2021",
+      organization: "CIN ADVANCED SYSTEMS GROUP S.L.",
+      location: "Gijón, Spain",
+      details: [
+        "Integrated conoscopic holography sensors into mobile systems, ensuring real-time synchronization of scans and positions using SoC Zynq platforms with FPGA.",
+        "Developed defect detection systems utilizing laser triangulation sensors."
+      ],
+      tech_stack: [
+        "Linux", "C++", "Python", "FPGA", "Embedded Systems", "OpenCV", "Signal Processing"
+      ]
     }
+  - {
+      name: "Research Intern",
+      icon: "icon-1.png",
+      date: "2017",
+      organization: "Escuela Politécnica de Ingeniería de Gijón",
+      location: "Gijón, Spain",
+      details: [
+        "Designed a PCB for analog/digital interface and developed a three-phase power converter.",
+        "Participated in a project simulating energy storage systems in collaboration with ArcelorMittal España."
+      ],
+      tech_stack: [
+        "PCB Design", "Power Electronics", "Data Analysis"
+      ]
+  }
 
 #-------------------------------
 # Education Section
@@ -123,69 +117,42 @@ experience:
 education-title: Education
 education:
   - {
-      name: Marters in UX Design,
-      date: "2006",
-      organization: "Masassusets Institute of Technology",
+      name: Ph.D. in Energy and Process Control,
+      date: "2019--Present",
+      organization: "Escuela Politécnica de Ingeniería de Gijón",
+      thesis: "3D Inspection Systems for Large-Scale Parts with Complex Geometries"
     }
   - {
-      name: Honours in Fine Arts,
-      date: "2004",
-      organization: "Harvard University",
+      name: Master’s in Automation and Industrial Informatics,
+      date: "2017--2019",
+      organization: "Escuela Politécnica de Ingeniería de Gijón",
+      thesis: "Master's Thesis: 3D Data Acquisition System Based on an SoC Embedded System for a Conopoint Sensor"
     }
   - {
-      name: Higher Secondary Certificat,
-      date: "2000",
-      organization: "Cardiff School",
-    }
-  - {
-      name: Secondary School Certificate,
-      date: "1998",
-      organization: "Cardiff School",
+      name: Bachelor’s in Industrial Electronic Engineering. Specialization in Robotics,
+      date: "2013--2017",
+      organization: "Escuela Politécnica de Ingeniería de Gijón",
+      thesis: "Bachelor's Thesis: 3D Model Reconstruction Using Computer Vision Techniques"
     }
 
-#-------------------------------
-# Services Section
-
-services-title: Services
-services:
-  - {
-      name: UI Design,
-      icon: ti-palette,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
-    }
-  - {
-      name: UX Design,
-      icon: ti-vector,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: true, # Add true to select section
-    }
-  - {
-      name: Interaction Design,
-      icon: ti-panel,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
-    }
 
 #-------------------------------
 # Portfolio (Section and Page)
 
 # Portfolio Home Section
 portfolio-home-items:
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
+  - image: "assets/images/portfolio/fastapi.jpeg"
+    url: "https://github.com/mariorht/fastapi_template"
 
-  - image: "assets/images/portfolio/item-2.png"
-    url: "#"
+  - image: "assets/images/portfolio/bike.png"
+    url: "https://github.com/mariorht/montreal_bikes_ussage"
 
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
+  - image: "assets/images/portfolio/pdf.png"
+    url: "https://github.com/mariorht/PDF_tools"
 
-  - image: "assets/images/portfolio/item-4.png"
-    url: "#"
+  - image: "assets/images/portfolio/juego-de-la-vida.png"
+    url: "https://mariorht.github.io/El-juego-de-la-vida-P5Js/"
 
-  - image: "assets/images/portfolio/item-5.png"
-    url: "#"
 
 # Portfolio Page
 portfolio-label:
@@ -243,61 +210,10 @@ portfolio-items:
     portfolio-type:
       - type: "illustration"
 
-#-------------------------------
-# Testimonials Section
 
-testimonial-items:
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-#-------------------------------
-# Client Slider Section
-
-client-slider-items:
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
 
 #-------------------------------
 # Contact Section
 
 contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-email: marioroos2502@gmail.com
