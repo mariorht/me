@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  kross-jekyll:
+    image: ruby:3.2
+    container_name: kross_jekyll
+    working_dir: /usr/src/app
+    volumes:
+      - .:/usr/src/app
+      - bundle_cache:/usr/local/bundle
+    ports:
+      - "4000:4000"
+    command: bundle exec jekyll serve --host 0.0.0.0 --port 4000
+    environment:
+      JEKYLL_ENV: development
+    depends_on:
+      - bundler
+
+  bundler:
+    image: ruby:3.2
+    container_name: bundler
+    working_dir: /usr/src/app
+    volumes:
+      - .:/usr/src/app
+      - bundle_cache:/usr/local/bundle
+    command: bundle install
+
+volumes:
+  bundle_cache:
