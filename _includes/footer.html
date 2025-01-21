@@ -7,18 +7,20 @@
           <h5 class="text-light">Email</h5>
           <p class="text-white paragraph-lg font-primary">{{ site.data.settings.email }}</p>
         </div>
-        <!-- <div class="col-md-4">
-          <h5 class="text-light">Phone</h5>
-          <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.phone }}</p>
-        </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Address</h5>
-          <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.address }}</p>
-        </div> -->
       </div>
     </div>
   </div>
-  <div class="border-top text-center border-dark py-5">
+  <div class="border-top text-center border-dark py-4">
+    <!-- Horizontal Social Icons -->
+    <ul class="list-inline">
+      {% for social in site.data.settings.social %}
+      <li class="list-inline-item">
+        <a class="text-white" href="{{ social.link }}">
+          <i class="{{ social.icon }}"></i>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
     <p class="mb-0 text-light">{{site.data.settings.copyright | markdownify}}</p>
   </div>
 </footer>
