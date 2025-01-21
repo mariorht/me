@@ -10,7 +10,9 @@ email: marioroos2502@gmail.com
 
 menu:
   - { name: About, link: "/about" }
+  - { name: Experience, link: "/experience" }
   - { name: Publications, link: "/publications" }
+
 
   # - { name: Blog, link: "/blog" }
 #  - { name: Portfolio, link: "/portfolio" }
@@ -121,7 +123,7 @@ experience:
 #-------------------------------
 # Education Section
 
-education-title: Education
+education-title: Academic
 education:
   - {
       name: Ph.D. in Energy and Process Control,
