@@ -3,6 +3,33 @@ layout: page
 title: Publications
 ---
 
+<!-- Preprints Section -->
+{% if site.data.settings.preprints %}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <h2 class="section-title">{{ site.data.settings.preprints-title }}</h2>
+      </div>
+      <div class="col-lg-8 mx-auto">
+        {% for preprint in site.data.settings.preprints %}
+        <div class="card shadow mb-4">
+          <div class="card-body">
+            <h4 class="card-title">{{ preprint.title }}</h4>
+            <p class="text-muted mb-2"><strong>Year:</strong> {{ preprint.year }}</p>
+            <p class="text-muted mb-2"><strong>Journal:</strong> {{ preprint.journal }}</p>
+            <p class="text-muted mb-2"><strong>Authors:</strong> {{ preprint.authors }}</p>
+            {% if preprint.link %}
+            <p class="mb-0"><a href="{{ preprint.link }}" target="_blank" class="text-primary">Read More</a></p>
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- Publications Section -->
 {% if site.data.settings.publications %}
 <section class="section">
@@ -31,30 +58,5 @@ title: Publications
 </section>
 {% endif %}
 
-<!-- Preprints Section -->
-{% if site.data.settings.preprints %}
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-5">
-        <h2 class="section-title">{{ site.data.settings.preprints-title }}</h2>
-      </div>
-      <div class="col-lg-8 mx-auto">
-        {% for preprint in site.data.settings.preprints %}
-        <div class="card shadow mb-4">
-          <div class="card-body">
-            <h4 class="card-title">{{ preprint.title }}</h4>
-            <p class="text-muted mb-2"><strong>Year:</strong> {{ preprint.year }}</p>
-            <p class="text-muted mb-2"><strong>Journal:</strong> {{ preprint.journal }}</p>
-            <p class="text-muted mb-2"><strong>Authors:</strong> {{ preprint.authors }}</p>
-            {% if preprint.link %}
-            <p class="mb-0"><a href="{{ preprint.link }}" target="_blank" class="text-primary">Read More</a></p>
-            {% endif %}
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-</section>
+
 {% endif %}
