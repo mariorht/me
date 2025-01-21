@@ -48,12 +48,57 @@ blurb-btn-link: /about
 
 skills-title: Skills
 skills:
-- { name: C++, color: "#fdb157", value: "90%" }
-- { name: Python, color: "#9473e6", value: "65%" }
-- { name: Qt, color: "#ff6b6b", value: "90%" } # Cambiado
-- { name: Computer vision, color: "#1dd1a1", value: "80%" } # Cambiado
-- { name: Linux, color: "#bdecf6", value: "80%" }
-- { name: Web, color: "#ff9f43", value: "50%" } # Cambiado
+  - name: Programming
+    color: "#9473e6"
+    value: "85%"
+    details:
+      - "C++"
+      - "Python"
+      - "Databases: PostgreSQL, SQLite"
+      - "Multithreading"
+
+  - name: C++
+    color: "#fdb157"
+    value: "90%"
+    details:
+      - "Qt"
+      - "OpenCV"
+      - "OpenCascade"
+      - "CUDA"
+
+  - name: Python
+    color: "#9473e6"
+    value: "65%"
+    details:
+      - "Data science: Pandas, NumPy, SKLearn."
+      - "Computer vision: OpenCV"
+      - "Web: Flask, FastApi"
+
+  - name: Computer vision
+    color: "#1dd1a1"
+    value: "80%"
+    details:
+      - "Image processing"
+      - "Object detection"
+      - "3D vision"
+
+  - name: Linux
+    color: "#bdecf6"
+    value: "80%"
+    details:
+      - "Git"
+      - "Jenkins"
+      - "System administration"
+      - "Shell scripting"
+      - "Docker"
+
+  - name: Web
+    color: "#ff9f43"
+    value: "50%"
+    details:
+      - "HTML, CSS, JavaScript"
+      - "Flask, FastApi"
+
 
 
 #-------------------------------
