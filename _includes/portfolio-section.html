@@ -4,22 +4,29 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">Portfolio</h2>
+        <h2 class="section-title">Mini Projects</h2>
       </div>
     </div>
     <div class="row shuffle-wrapper">
       {% for item in site.data.settings.portfolio-home-items %}
-      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+      <div class="col-lg-3 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
           <img src="{{ site.baseurl }}/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="{{ item.url }}">view project</a>
+              <a class="btn btn-light btn-sm" href="{{ item.url }}">view more</a>
             </div>
           </div>
         </div>
       </div>
       {% endfor %}
+    </div>
+    <div class="row mt-4">
+      <div class="col-12 text-center">
+        <a href="{{ site.data.settings.portfolio-home-github }}" target="_blank" class="btn btn-primary">
+          See More on GitHub
+        </a>
+      </div>
     </div>
   </div>
 </section>
