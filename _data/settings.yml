@@ -146,18 +146,18 @@ education:
 # Portfolio (Section and Page)
 
 # Portfolio Home Section
-portfolio-home-items:
-  - image: "assets/images/portfolio/fastapi.jpeg"
-    url: "https://github.com/mariorht/fastapi_template"
+# portfolio-home-items:
+#   - image: "assets/images/portfolio/fastapi.jpeg"
+#     url: "https://github.com/mariorht/fastapi_template"
 
-  - image: "assets/images/portfolio/bike.png"
-    url: "https://github.com/mariorht/montreal_bikes_ussage"
+#   - image: "assets/images/portfolio/bike.png"
+#     url: "https://github.com/mariorht/montreal_bikes_ussage"
 
-  - image: "assets/images/portfolio/pdf.png"
-    url: "https://github.com/mariorht/PDF_tools"
+#   - image: "assets/images/portfolio/pdf.png"
+#     url: "https://github.com/mariorht/PDF_tools"
 
-  - image: "assets/images/portfolio/juego-de-la-vida.png"
-    url: "https://mariorht.github.io/El-juego-de-la-vida-P5Js/"
+#   - image: "assets/images/portfolio/juego-de-la-vida.png"
+#     url: "https://mariorht.github.io/El-juego-de-la-vida-P5Js/"
 
 
 # Publications Section
@@ -199,60 +199,60 @@ preprints:
 
 
 # Portfolio Page
-portfolio-label:
-  - { title: "UI/UX Design", type: "design" }
-  - { title: "BRANDING", type: "branding" }
-  - { title: "ILLUSTRATION", type: "illustration" }
+# portfolio-label:
+#   - { title: "UI/UX Design", type: "design" }
+#   - { title: "BRANDING", type: "branding" }
+#   - { title: "ILLUSTRATION", type: "illustration" }
 
-portfolio-items:
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "illustration"
+# portfolio-items:
+#   - image: "assets/images/portfolio/item-1.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "design"
+#       - type: "illustration"
 
-  - image: "assets/images/portfolio/item-2.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
+#   - image: "assets/images/portfolio/item-2.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "branding"
 
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
+#   - image: "assets/images/portfolio/item-3.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "illustration"
 
-  - image: "assets/images/portfolio/item-6.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "branding"
+#   - image: "assets/images/portfolio/item-6.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "design"
+#       - type: "branding"
 
-  - image: "assets/images/portfolio/item-8.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
+#   - image: "assets/images/portfolio/item-8.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "illustration"
 
-  - image: "assets/images/portfolio/item-5.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
+#   - image: "assets/images/portfolio/item-5.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "design"
 
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
+#   - image: "assets/images/portfolio/item-1.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "branding"
 
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
+#   - image: "assets/images/portfolio/item-3.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "design"
+#       - type: "illustration"
+#       - type: "branding"
 
-  - image: "assets/images/portfolio/item-7.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
+#   - image: "assets/images/portfolio/item-7.png"
+#     url: "#"
+#     portfolio-type:
+#       - type: "illustration"
 
 
 
