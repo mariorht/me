@@ -10,9 +10,11 @@ email: marioroos2502@gmail.com
 
 menu:
   - { name: About, link: "/about" }
-  - { name: Blog, link: "/blog" }
+  - { name: Publications, link: "/publications" }
+
+  # - { name: Blog, link: "/blog" }
 #  - { name: Portfolio, link: "/portfolio" }
-  - { name: Contact, link: "/contact" }
+  # - { name: Contact, link: "/contact" }
 
 
 
@@ -37,15 +39,19 @@ blurb-btn-name: know more
 # About Page
 
 
+
 #-------------------------------
 # Skills Section
 
 skills-title: Skills
 skills:
-  - { name: C++, color: "#fdb157", value: "90%" }
-  - { name: Python, color: "#9473e6", value: "60%" }
-  - { name: Linux, color: "#bdecf6", value: "80%" }
-  - { name: Web, color: "#ffbcaa", value: "50%" }
+- { name: C++, color: "#fdb157", value: "90%" }
+- { name: Python, color: "#9473e6", value: "65%" }
+- { name: Qt, color: "#ff6b6b", value: "90%" } # Cambiado
+- { name: Computer vision, color: "#1dd1a1", value: "80%" } # Cambiado
+- { name: Linux, color: "#bdecf6", value: "80%" }
+- { name: Web, color: "#ff9f43", value: "50%" } # Cambiado
+
 
 #-------------------------------
 # Exprerience Section
@@ -99,7 +105,7 @@ experience:
   - {
       name: "Research Intern",
       icon: "icon-1.png",
-      date: "2017",
+      date: "2017-2017",
       organization: "Escuela Politécnica de Ingeniería de Gijón",
       location: "Gijón, Spain",
       details: [
@@ -118,19 +124,19 @@ education-title: Education
 education:
   - {
       name: Ph.D. in Energy and Process Control,
-      date: "2019--Present",
+      date: "2019-Present",
       organization: "Escuela Politécnica de Ingeniería de Gijón",
       thesis: "3D Inspection Systems for Large-Scale Parts with Complex Geometries"
     }
   - {
       name: Master’s in Automation and Industrial Informatics,
-      date: "2017--2019",
+      date: "2017-2019",
       organization: "Escuela Politécnica de Ingeniería de Gijón",
       thesis: "Master's Thesis: 3D Data Acquisition System Based on an SoC Embedded System for a Conopoint Sensor"
     }
   - {
       name: Bachelor’s in Industrial Electronic Engineering. Specialization in Robotics,
-      date: "2013--2017",
+      date: "2013-2017",
       organization: "Escuela Politécnica de Ingeniería de Gijón",
       thesis: "Bachelor's Thesis: 3D Model Reconstruction Using Computer Vision Techniques"
     }
@@ -152,6 +158,30 @@ portfolio-home-items:
 
   - image: "assets/images/portfolio/juego-de-la-vida.png"
     url: "https://mariorht.github.io/El-juego-de-la-vida-P5Js/"
+
+
+# Publications Section
+publications-title: Publications
+publications:
+  - {
+      year: "2023",
+      title: "Simulation of Laser Profilometer Measurements in the Presence of Speckle Using Perlin Noise",
+      journal: "MDPI Sensors, Sep. 2, 2023",
+      link: "https://doi.org/10.3390/s23177624"
+    }
+  - {
+      year: "2019",
+      title: "Master's Thesis: 3D Data Acquisition System Based on an SoC Embedded System for a Conopoint Sensor",
+      journal: "Repositorio Institucional de la Universidad de Oviedo",
+      link: "http://hdl.handle.net/10651/50424",
+    }
+  - {
+      year: "2017",
+      title: "Bachelor's Thesis: 3D Model Reconstruction Using Computer Vision Techniques",
+      journal: "Repositorio Institucional de la Universidad de Oviedo",
+      link: "https://hdl.handle.net/10651/76269",
+    }
+
 
 
 # Portfolio Page
