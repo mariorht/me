@@ -1,61 +1,60 @@
 /* skills */
-.progress-wrapper {
-  height: 220px;
+/* Estilo para las tarjetas */
+.card {
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #ffffff;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para la barra de progreso */
+.progress {
+  margin-top: 10px;
+  height: 8px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
   overflow: hidden;
 }
 
-.wave {
-  position: absolute;
-  width: 100%;
+.progress-bar {
   height: 100%;
-
-  &::before,
-  &::after {
-    content: "";
-    position: absolute;
-    width: 800px;
-    height: 800px;
-    bottom: 0;
-    left: 50%;
-    background-color: rgba(255, 255, 255, .4);
-    border-radius: 70%;
-    transform: translateX(-50%) rotate(0);
-    // animation: rotate 6s linear infinite;
-    z-index: 10;
-  }
-
-  
-  &::after {
-    border-radius: 60%;
-    background-color: rgba(255, 255, 255, .9);
-    transform: translateX(-50%) rotate(0);
-    // animation: rotate 10s linear -5s infinite;
-    z-index: 20;
-  }
+  transition: width 0.4s ease;
 }
 
-@keyframes rotate {
-  50% {
-    transform: translateX(-50%) rotate(180deg);
-  }
-
-  100% {
-    transform: translateX(-50%) rotate(360deg);
-  }
+/* Estilo para la lista de detalles */
+/* Lista de habilidades */
+.card ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
-.card-footer {
-  padding: 5px; /* Reduce el espacio interno */
+.card ul li {
+  font-size: 0.9rem;
+  position: relative; /* Importante para posicionar los pseudoelementos */
+  padding-left: 20px; /* Espacio para el puntito */
+  margin-bottom: 5px;
+  line-height: 1.5; /* Ajusta la altura de l?nea */
 }
 
-.card-title {
-  font-size: 16px; /* Tamaño de texto más pequeño */
-  margin: 0; /* Elimina márgenes adicionales */
-  line-height: 1.2; /* Ajusta el espaciado entre líneas */
+/* Pseudoelemento para los puntos decorativos */
+.card ul li::before {
+  content: "";
+  width: 8px; /* Tama?o del puntito */
+  height: 8px; /* Tama?o del puntito */
+  background-color: #41228e; /* Cambia el color seg?n desees */
+  border-radius: 50%; /* Hace que sea un c?rculo */
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
 }
 
-
-/* /skills */
 
 /* education */
 .edu-bg-image {
