@@ -1,58 +1,57 @@
-# Kross Jekyll
+# My Personal Website - Based on Kross Jekyll
 
-Kross Jekyll Creative Portfolio Template ported from [Kross HTML Template](https://themefisher.com/products/kross/)
+This is my personal website, designed to showcase my projects, experience, and more. It is based on the **Kross Jekyll Creative Portfolio Template**, a clean and minimalist design ported from the [Kross HTML Template](https://themefisher.com/products/kross/).
 
 ## Demo
 
-| Homepage  | About  | Blog  | Portfolio  | Contact  |
-|---|---|---|---|---|
-| ![Homepage](https://user-images.githubusercontent.com/37659754/58154295-1a9c5300-7c93-11e9-992c-ad8d2ff8d99f.png) | ![About](https://user-images.githubusercontent.com/37659754/58154317-28ea6f00-7c93-11e9-914b-b7e5f1cdab0e.png) | ![Blog](https://user-images.githubusercontent.com/37659754/58154339-369ff480-7c93-11e9-9568-53b7ebdc6b2d.png) | ![portfolio](https://user-images.githubusercontent.com/37659754/58154368-491a2e00-7c93-11e9-8900-f5a6abe0a61d.png) | ![contact](https://user-images.githubusercontent.com/37659754/58154403-57684a00-7c93-11e9-9cea-ea28253a6f6a.png) |
+You can visit my website here: [https://mariorht.github.io/](https://mariorht.github.io/)
 
-[Live Preview](http://demo.themefisher.com/kross).
+## About the Template
 
-## Setup
+The **Kross Jekyll** template was created by [Themefisher](https://themefisher.com). It provides a professional and responsive solution for personal or creative portfolios. I have customized this template to suit my needs.
 
-To start your project, fork this repository
-After forking the repo, your site will be live immediately on your personal Github Pages account, e.g. `https://yourusername.github.io/your-repo-name/`.
+## Customization
 
-Make sure GitHub Pages is enabled for your repo. It might take some time for the site to propagate entirely.
+I’ve tailored several sections of the template to reflect my personal style and work. If you want to use this template, here are the sections you can easily customize through the `_data/settings.yml` file without modifying any HTML or CSS:
 
-## Customize
+- General theme settings (name, logo, email, phone, address).
+- Hero Section.
+- About Section.
+- Skills Section.
+- Experience Section.
+- Education Section.
+- Portfolio Section.
+- Testimonials Section.
+- Contact Section.
 
-Things you can customize in `_data/settings.yml` (no HTML/CSS):
+For more information on how to customize the template, check out the official repository: [Kross Jekyll GitHub](https://github.com/themefisher/kross-jekyll).
 
-- Theme General Settings ( name, logo, email, phone, address )
-- Hero Section
-- About Section
-- Team Section
-- Skills Section
-- Experience Section
-- Education Section
-- Services Section
-- Portfolio Section
-- Testimonials Section
-- Client Slider Section
-- Contact Section
 
-## Deployment
+## How to Use the Template
 
-To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
-I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll's website.
+1. **Clone or Fork the Repository**: You can fork the Kross Jekyll repository and adapt it to your needs.
+2. **Enable GitHub Pages**: Once you’ve made your changes, enable GitHub Pages in your repository settings. This will make your site live at `https://yourusername.github.io/your-repo-name/`.
+3. **Customization**: Edit the `_data/settings.yml` file to add your information and personalize the content.
+4. **Local Server**: If you want to preview changes locally before publishing:
+   - Install dependencies using Docker:
+     ```bash
+     docker-compose run bundler
+     ```
+   - Start the local server with:
+     ```bash
+     docker-compose up
+     ```
+   - Open your browser and navigate to `http://localhost:4000` to see your site running.
 
-## Reporting Issues
 
-We use GitHub Issues as the official bug tracker for the **Kross Theme**. Please Search [existing issues](https://github.com/themefisher/kross-jekyll/issues). It’s possible someone has already reported the same problem.
-If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/kross-jekyll/issues/new)
+## Acknowledgments
 
-## Technical Support or Questions
+Special thanks to [Themefisher](https://themefisher.com) for developing such a versatile and well-designed template. The code is licensed under the [MIT License](https://github.com/themefisher/kross-jekyll/blob/main/LICENSE), and the demo images are for demonstration purposes only.
 
-If you have questions or need help integrating the product please [contact us](mailto:themefisher@gmail.com) instead of opening an issue.
+---
 
-<!-- licence -->
-## License
+### License
 
-Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
+- **Code**: Distributed under the [MIT License](https://github.com/themefisher/kross-jekyll/blob/main/LICENSE).
+- **Demo Images**: The demo images used in the original template are licensed separately and not included in this repository.
 
-**Code License:** Released under the [MIT](https://github.com/themefisher/kross-jekyll/blob/main/LICENSE) license.
-
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
