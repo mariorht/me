@@ -167,21 +167,35 @@ publications:
       year: "2023",
       title: "Simulation of Laser Profilometer Measurements in the Presence of Speckle Using Perlin Noise",
       journal: "MDPI Sensors, Sep. 2, 2023",
-      link: "https://doi.org/10.3390/s23177624"
+      link: "https://doi.org/10.3390/s23177624",
+      authors: "Sara Roos-Hoefgeest, Mario Roos-Hoefgeest, Ignacio Alvarez, Rafael C. González",
+
     }
   - {
       year: "2019",
       title: "Master's Thesis: 3D Data Acquisition System Based on an SoC Embedded System for a Conopoint Sensor",
       journal: "Repositorio Institucional de la Universidad de Oviedo",
       link: "http://hdl.handle.net/10651/50424",
+      authors: "Mario Roos-Hoefgeest Toribio",
     }
   - {
       year: "2017",
       title: "Bachelor's Thesis: 3D Model Reconstruction Using Computer Vision Techniques",
       journal: "Repositorio Institucional de la Universidad de Oviedo",
       link: "https://hdl.handle.net/10651/76269",
+      authors: "Mario Roos-Hoefgeest Toribio",
     }
 
+# Preprints Section
+preprints-title: Preprints
+preprints:
+  - {
+      year: "2024",
+      title: "Reinforcement Learning Approach to Optimizing Profilometric Sensor Trajectories for Surface Inspection",
+      journal: "Preprint, arXiv",
+      link: "https://arxiv.org/abs/2409.03429",
+      authors: "Sara Roos-Hoefgeest, Mario Roos-Hoefgeest, Ignacio Alvarez, Rafael C. González",
+    }
 
 
 # Portfolio Page
