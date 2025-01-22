@@ -87,10 +87,9 @@ skills:
     value: "80%"
     details:
       - "Git"
-      - "Jenkins"
+      - "CI/CD: Docker, Jenkins"
       - "System administration"
       - "Shell scripting"
-      - "Docker"
 
   - name: Web
     color: "#ff9f43"
