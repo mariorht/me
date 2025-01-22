@@ -1,0 +1,47 @@
+/* General */
+.education-card {
+  background-color: #fff; /* Fondo blanco */
+  border-radius: 8px; /* Bordes redondeados */
+  padding: 1.5rem;
+  transition: all 0.3s ease-in-out;
+  text-align: center; /* Centra el contenido */
+}
+
+.education-card:hover {
+  transform: translateY(-5px); /* Efecto de elevación al pasar el cursor */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Sombra en hover */
+}
+
+/* Icono */
+.icon-container {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: #f7f7f7; /* Fondo suave */
+  border-radius: 50%; /* Círculo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.icon-container i {
+  font-size: 24px;
+  color: #555; /* Color del icono */
+}
+
+/* Texto */
+.education-card p {
+  margin: 0.5rem 0;
+}
+
+.education-card h4 {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.education-card .text-muted {
+  font-size: 0.9rem;
+  color: #777;
+}
