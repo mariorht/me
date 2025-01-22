@@ -13,7 +13,7 @@ I am currently pursuing a Ph.D. focused on 3D inspection systems for large-scale
 From designing real-time defect detection systems to improving industrial automation processes, I aim to create solutions that are both efficient and accurate. I am always learning and looking to contribute to meaningful projects that drive innovation.
 
 
-Outside of work, I am passionate about both sports and technology. On the sports side, I enjoy activities like bouldering, football, surfing, and triathlons. I started participating in triathlons last year and find them a great way to stay active and challenge myself.  
+Outside of work, I am passionate about both sports and technology. On the sports side, I enjoy activities like bouldering, football, surfing, cicling and skiing. I started participating in triathlons last year and find them a great way to stay active and challenge myself.  
 
 In technology, I have a strong interest in cybersecurity, having completed introductory pentesting courses and explored platforms like TryHackMe to deepen my understanding.  
 
