@@ -16,7 +16,7 @@
 
 .timeline-marker {
   position: absolute;
-  left: -0.65rem;
+  left: -0.675rem;
   top: 10;
   width: 18px;
   height: 18px;
@@ -32,7 +32,7 @@
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-size: 0.9rem;
-  min-width: 400px; /* Reduce el tamaño de las tarjetas */
+  min-width: 350px; /* Reduce el tamaño de las tarjetas */
 }
 
 .timeline-content h4 {
