@@ -26,12 +26,17 @@
           <!-- Lista de detalles -->
           <ul class="list-unstyled mt-3">
             {% for detail in skill.details %}
-            <li class="d-flex align-items-center">
-              <i class="bi bi-check-circle-fill mr-2" style="color: {{ skill.color }};"></i>
-              {{ detail }}
+            <li class="d-flex align-items-start">
+              <!-- Asegúrate de usar flex-shrink-0 para el ícono -->
+              <i class="bi bi-check-circle-fill flex-shrink-0 mr-2" style="color: {{ skill.color }};"></i>
+              <!-- Envuelve el texto en un contenedor adicional -->
+              <span class="text-left">
+                {{ detail }}
+              </span>
             </li>
             {% endfor %}
           </ul>
+          
         </div>
       </div>
       {% endfor %}
