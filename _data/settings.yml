@@ -63,7 +63,7 @@ skills:
     details:
       - "Qt"
       - "OpenCV"
-      - "OpenCascade"
+      - "OpenGL, OpenCascade"
       - "CUDA"
 
   - name: Python
