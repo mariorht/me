@@ -54,6 +54,7 @@ skills:
     details:
       - "C++"
       - "Python"
+      - "Golang"
       - "Databases: PostgreSQL, SQLite"
       - "Multithreading"
       - "Multiplatform development: Linux, Windows"
