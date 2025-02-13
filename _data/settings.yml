@@ -71,11 +71,12 @@ skills:
 
   - name: Python
     color: "#9473e6"
-    value: "65%"
+    value: "60%"
     details:
       - "Data science: Pandas, NumPy, SKLearn."
       - "Computer vision: OpenCV"
       - "Web: Flask, FastApi"
+      - "Machine learning: Tensorflow, Pytorch"
 
   - name: Computer vision
     color: "#1dd1a1"
@@ -121,7 +122,7 @@ experience:
         "Improved development processes, achieving faster and more reliable project implementation."
       ],
       tech_stack: [
-        "Linux", "C++", "Python", "Docker", "CI/CD", "GitLab", "OpenCV", "Qt", "PostgreSQL", "CUDA", "Jenkins"
+        "Linux", "C++", "Python", "Docker", "CI/CD", "GitLab", "OpenCV", "Machine learning", "Qt", "PostgreSQL", "CUDA", "Jenkins"
       ]
     }
   - {
@@ -132,10 +133,10 @@ experience:
       location: "Gijón, Spain",
       details: [
         "Developed distributed inspection systems integrating laser triangulation sensors, industrial robots, and motion systems for real-time automotive production inspection.",
-        "Designed and implemented processes for detailed scanning, advanced data processing, and visualization, ensuring accuracy and reliability in defect detection."
+        "Designed and implemented processes for detailed scanning, advanced data processing and visualization, integrating deep learning detection models for ensuring accuracy and reliability in defect detection using C++ and Qt."
       ],
       tech_stack: [
-        "Linux", "Qt", "OpenCV", "C++", "Multithreading", "3D Visualization", "Agile methodologies", "Kanban"
+        "Linux", "Qt", "OpenCV", "C++", "Multithreading", "3D Visualization", "Machine Learning", "Python", "Agile methodologies", "Kanban"
       ]
     }
   - {
