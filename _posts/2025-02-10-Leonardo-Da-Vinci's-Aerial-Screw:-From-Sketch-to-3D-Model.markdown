@@ -39,7 +39,7 @@ The screw comprises two helical guides joined by wooden spokes, forming the stru
 The spokes connecting the guides were designed as wooden rods tied with cords. The cords and knots were meticulously modeled using small helices and 3D sketches to achieve a realistic appearance.
 
 ### Animation
-The 3D model was animated using Autodesk 3ds Max 2017, creating several scenes:
+The 3D model was animated using Autodesk 3ds Max 2017, creating several scenes.
 
 <iframe width="840" height="472" src="https://www.youtube.com/embed/PTQLWKeWPA0" frameborder="0" allowfullscreen style="display: block; margin: 0 auto;"></iframe>
 
