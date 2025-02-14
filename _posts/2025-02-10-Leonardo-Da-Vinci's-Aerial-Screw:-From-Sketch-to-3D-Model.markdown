@@ -41,14 +41,6 @@ The spokes connecting the guides were designed as wooden rods tied with cords. T
 ### Animation
 The 3D model was animated using Autodesk 3ds Max 2017, creating several scenes:
 
-- Exploded view of the screw against a neutral background, showcasing its individual components.
-- Simulation of an ideal successful flight where the screw lifts off into the sky.
-- Scene depicting the screw flying over a medieval castle under siege by catapults.
-
-During the transition from Inventor to 3ds Max, minor issues with textures and materials arose. Some materials appeared differently or failed to render altogether, requiring adjustments in 3ds Max. Nvidia Mental Ray was chosen as the rendering engine due to its compatibility with the textures and lighting environment used.
-
-Additionally, articulated mannequins from Autodesk tutorials were employed to represent the operators during the flight simulations. 
-
 <iframe width="840" height="472" src="https://www.youtube.com/embed/PTQLWKeWPA0" frameborder="0" allowfullscreen style="display: block; margin: 0 auto;"></iframe>
 
 
