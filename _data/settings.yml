@@ -197,17 +197,21 @@ education:
 
 # Portfolio Home Section
 portfolio-home-items:
+  - image: "assets/images/portfolio/gpx_map.png"
+    url: "https://mariorht.github.io/gpx_toys/"
+    name: "GPX Toys"
+
   - image: "assets/images/portfolio/fastapi.jpeg"
     url: "https://github.com/mariorht/fastapi_template"
     name: "FastAPI Template"
 
   - image: "assets/images/portfolio/bike.png"
-    url: "https://github.com/mariorht/montreal_bikes_ussage"
+    url: "https://mariorht.github.io/montreal_bikes_ussage/"
     name: "Montreal Bikes Usage"
 
-  - image: "assets/images/portfolio/pdf.png"
-    url: "https://github.com/mariorht/PDF_tools"
-    name: "PDF Tools"
+  # - image: "assets/images/portfolio/pdf.png"
+  #   url: "https://github.com/mariorht/PDF_tools"
+  #   name: "PDF Tools"
 
   - image: "assets/images/portfolio/juego-de-la-vida.png"
     url: "https://mariorht.github.io/El-juego-de-la-vida-P5Js/"
