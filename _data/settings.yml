@@ -225,6 +225,14 @@ portfolio-home-github: "https://github.com/mariorht"
 publications-title: Publications
 publications:
   - {
+      year: "2025",
+      title: "Reinforcement Learning Approach to Optimizing Profilometric Sensor Trajectories for Surface Inspection",
+      journal: "MDPI Sensors, April 1, 2025",
+      link: "https://www.mdpi.com/journal/sensors",
+      authors: "Sara Roos-Hoefgeest, Mario Roos-Hoefgeest, Ignacio Alvarez, Rafael C. González",
+
+    }
+  - {
       year: "2023",
       title: "Simulation of Laser Profilometer Measurements in the Presence of Speckle Using Perlin Noise",
       journal: "MDPI Sensors, Sep. 2, 2023",
