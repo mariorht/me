@@ -228,7 +228,7 @@ publications:
       year: "2025",
       title: "Reinforcement Learning Approach to Optimizing Profilometric Sensor Trajectories for Surface Inspection",
       journal: "MDPI Sensors, April 1, 2025",
-      link: "https://www.mdpi.com/journal/sensors",
+      link: "https://doi.org/10.3390/s25072271",
       authors: "Sara Roos-Hoefgeest, Mario Roos-Hoefgeest, Ignacio Alvarez, Rafael C. González",
 
     }
