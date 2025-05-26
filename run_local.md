@@ -16,6 +16,6 @@
 - **Volúmenes**:
   - `.`: Sincroniza el directorio del proyecto con el contenedor.
   - `bundle_cache`: Guarda las gemas instaladas en un volumen persistente para evitar reinstalaciones repetidas.
-- **Puertos**:
+- **Puertos**: 
   - Redirige el puerto 4000 del contenedor al puerto 4000 del host, permitiéndote acceder al servidor Jekyll desde el navegador.
 
