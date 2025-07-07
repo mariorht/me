@@ -109,6 +109,23 @@ skills:
 experience-title: Experience
 experience:
   - {
+      name: "Computer Vision & Software Engineer",
+      icon: "icon-4.png",
+      date: "2025 - Present",
+      organization: "Musashi Spain",
+      location: "Gijón, Spain · Hybrid",
+      details: [
+        "Actively contributing to the creation and consolidation of the new Computer Vision department at Musashi Spain.",
+        "Developing computer vision solutions tailored to industrial environments, focusing on quality control, traceability, and process automation.",
+        "Integrating image processing and artificial intelligence algorithms into existing industrial systems, adapted to production-specific needs.",
+        "Collaborating with cross-functional teams to define robust and scalable software architectures aligned with operational goals.",
+        "Promoting best development practices, including containerization, automated testing, and controlled deployments in industrial environments."
+      ],
+      tech_stack: [
+        "Python", "C++", "OpenCV", "Machine Learning", "Docker", "Linux", "CI/CD", "Git", "Industrial Automation", "Software Architecture", "Data Processing"
+      ]
+    }
+  - {
       name: "Software Lead",
       icon: "icon-1.png",
       date: "2023 - Present",
