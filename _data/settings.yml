@@ -113,7 +113,7 @@ experience:
       icon: "icon-4.png",
       date: "2025 - Present",
       organization: "MUSASHI SPAIN",
-      location: "Gijón, Spain · Hybrid",
+      location: "Gijón, Spain",
       details: [
         "Actively contributing to the creation and consolidation of the new Computer Vision department at Musashi Spain.",
         "Developing computer vision solutions tailored to industrial environments, focusing on quality control, traceability, and process automation.",
