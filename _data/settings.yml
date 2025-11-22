@@ -243,7 +243,15 @@ publications-title: Publications
 publications:
   - {
       year: "2025",
-      title: " Geometric Interpretation of Savitzky-Golay Filter for Defect Detection",
+      title: "Generating realistic 3D surface defects for training AI-Based industrial inspection systems",
+      journal: "The International Journal of Advanced Manufacturing Technology - Springer Nature",
+      link: "https://doi.org/10.1007/s00170-025-16851-7",
+      authors: "Sara Roos-Hoefgeest, Mario Roos-Hoefgeest, Daniel Garcia, Ignacio Alvarez, Rafael C. González",
+    
+    }
+  - {
+      year: "2025",
+      title: "Geometric Interpretation of Savitzky-Golay Filter for Defect Detection",
       journal: "IECON 2025 – 51st Annual Conference of the IEEE Industrial Electronics Society",
       link: "https://doi.org/10.1109/IECON58223.2025.11221956",
       authors: "Mario Roos-Hoefgeest, Sara Roos-Hoefgeest, Ignacio Alvarez",
@@ -251,7 +259,7 @@ publications:
     }
   - {
       year: "2025",
-      title: " A Novel Approach to Speed Up Hampel Filter for Outlier Detection ",
+      title: "A Novel Approach to Speed Up Hampel Filter for Outlier Detection ",
       journal: "MDPI Sensors, May 25, 2025",
       link: "https://doi.org/10.3390/s25113319",
       authors: "Mario Roos-Hoefgeest, Alejandro Garnung, Sara Roos-Hoefgeest, Ignacio Alvarez",
