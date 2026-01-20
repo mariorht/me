@@ -6,7 +6,7 @@ image: assets/images/about/author.jpg
 #signature: assets/images/about/signature.png
 ---
 
-I am Mario Roos Hoefgeest Toribio, a Eletronic Engineer with over 8 years of experience in software, computer vision and industrial inspection. My expertise includes developing solutions for challenging problems, using technologies like laser triangulation, conoscopic holography, embedded systems, and distributed architectures.
+I am Mario Roos Hoefgeest Toribio, an Eletronic Engineer with over 8 years of experience in software, computer vision and industrial inspection. My expertise includes developing solutions for challenging problems, using technologies like laser triangulation, conoscopic holography, embedded systems, and distributed architectures.
 
 I am currently pursuing a Ph.D. focused on 3D inspection systems for large-scale and complex geometries, combining theoretical research with real-world applications. I work well in collaborative environments, leveraging modern workflows such as CI/CD pipelines, Docker, and agile methodologies to deliver reliable and scalable software.
 
