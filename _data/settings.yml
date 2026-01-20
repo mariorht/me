@@ -6,7 +6,7 @@ title: Mario Roos
 logo:
 author: Mario
 description: this is meta description
-email: marioroos2502@gmail.com
+email: 	contacto@marioroos.es
 
 menu:
   - { name: About, link: "/about" }
@@ -34,7 +34,7 @@ social:
 # About (Section and Page)
 
 # About SectionLorem
-blurb: I am Mario Roos Hoefgeest Toribio, a passionate and experienced C++ Software Engineer specialized in computer vision and industrial inspection. Currently pursuing a Ph.D. in 3D inspection systems for large-scale and intricate geometries.
+blurb: I am Mario Roos Hoefgeest Toribio, a passionate and experienced Electronic Engineer specialized in software, computer vision and industrial inspection. Currently pursuing a Ph.D. in 3D inspection systems for large-scale and intricate geometries.
 blurb-btn-name: know more
 blurb-btn-link: /about
 
