@@ -96,7 +96,7 @@ skills:
 
   - name: Web
     color: "#ff9f43"
-    value: "50%"
+    value: "80%"
     details:
       - "HTML, CSS, JavaScript"
       - "Flask, FastApi"
@@ -214,6 +214,10 @@ education:
 
 # Portfolio Home Section
 portfolio-home-items:
+  - image: "assets/images/portfolio/logoChalkin.png"
+    url: "https://www.chalkin.es"
+    name: "Chalkin"
+    
   - image: "assets/images/portfolio/gpx_map.png"
     url: "https://mariorht.github.io/gpx_toys/"
     name: "GPX Toys"
@@ -230,9 +234,7 @@ portfolio-home-items:
   #   url: "https://github.com/mariorht/PDF_tools"
   #   name: "PDF Tools"
 
-  - image: "assets/images/portfolio/juego-de-la-vida.png"
-    url: "https://mariorht.github.io/El-juego-de-la-vida-P5Js/"
-    name: "Game of Life"
+
 
 # Link to GitHub for more projects
 portfolio-home-github: "https://github.com/mariorht"
