@@ -31,6 +31,9 @@ title: Publications
         <div class="card shadow mb-4">
           <div class="card-body">
             <h4 class="card-title">{{ publication.title }}</h4>
+            {% if publication.subtitle %}
+            <p class="text-muted mb-2"><em>{{ publication.subtitle }}</em></p>
+            {% endif %}
             <p class="text-muted mb-2"><strong>Year:</strong> {{ publication.year }}</p>
             <p class="text-muted mb-2"><strong>Journal:</strong> {{ publication.journal }}</p>
             <p class="text-muted mb-2"><strong>Authors:</strong> {{ publication.authors }}</p>
