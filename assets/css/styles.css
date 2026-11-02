@@ -1223,17 +1223,10 @@ button {
 }
 
 .contact-card h2 {
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.5rem;
   color: var(--white);
   font-family: var(--font-display);
   font-size: clamp(2rem, 4vw, 3rem);
-}
-
-.contact-card p:not(.contact-kicker) {
-  max-width: 620px;
-  margin: 0 auto 2rem;
-  color: rgba(255, 255, 255, 0.82);
-  font-size: 1.02rem;
 }
 
 .contact-actions {
