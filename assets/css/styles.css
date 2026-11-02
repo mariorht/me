@@ -351,6 +351,17 @@ button {
   color: var(--purple);
 }
 
+.btn-outline {
+  border: 1px solid currentColor;
+  background: transparent;
+  color: var(--purple);
+}
+
+.btn-outline:hover {
+  background: var(--purple-soft);
+  color: var(--purple);
+}
+
 .link-cta {
   display: inline-flex;
   align-items: center;
@@ -459,6 +470,10 @@ button {
 
 .section--tight {
   padding-top: clamp(2.5rem, 4vw, 3.5rem);
+}
+
+.section--flush-top {
+  padding-top: 0;
 }
 
 .section-title {
@@ -1180,6 +1195,62 @@ button {
 .error-page p {
   margin-bottom: 2rem;
   color: var(--muted);
+}
+
+/* --------------------------------------------------------------------------
+   Contact CTA
+   -------------------------------------------------------------------------- */
+
+.contact-card {
+  padding: clamp(2.5rem, 6vw, 4.5rem) clamp(1.5rem, 5vw, 4rem);
+  border-radius: var(--radius);
+  background: var(--purple);
+  color: var(--white);
+  text-align: center;
+}
+
+.contact-section {
+  padding-bottom: 0;
+}
+
+.contact-kicker {
+  margin-bottom: 0.6rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.contact-card h2 {
+  margin-bottom: 0.75rem;
+  color: var(--white);
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.contact-card p:not(.contact-kicker) {
+  max-width: 620px;
+  margin: 0 auto 2rem;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 1.02rem;
+}
+
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.contact-card .btn-outline {
+  color: var(--white);
+  border-color: rgba(255, 255, 255, 0.55);
+}
+
+.contact-card .btn-outline:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--white);
 }
 
 /* --------------------------------------------------------------------------

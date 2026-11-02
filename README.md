@@ -51,7 +51,7 @@ Abre <http://localhost:8000>. Es importante usar un servidor: abrir `index.html`
 
 1. Crea una carpeta con un nombre corto y sin espacios, por ejemplo `blog/mi-proyecto/`.
 2. Copia `blog/leonardo-aerial-screw/index.html` dentro y cambia el título, la fecha, la imagen y el contenido.
-3. Añade la tarjeta de la entrada en `blog/index.html` y, si quieres que aparezca en la portada, en la sección `#blog` de `index.html`.
+3. Añade la tarjeta de la entrada en `blog/index.html`.
 4. Añade la URL a `sitemap.xml`.
 
 ## Imágenes
