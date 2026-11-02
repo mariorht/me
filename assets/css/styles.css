@@ -386,8 +386,21 @@ button {
   line-height: 1.14;
 }
 
-.hero h1 span {
-  display: inline;
+.hero-role {
+  margin: 0.8rem 0 0.45rem;
+  color: var(--white);
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  line-height: 1.2;
+}
+
+.hero-tagline {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .social-rail {
@@ -816,6 +829,31 @@ button {
   line-height: 1.85;
 }
 
+.about-lead {
+  margin-bottom: 1.6rem;
+  color: var(--purple);
+  font-size: 1.12rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.about-subtitle {
+  margin: 2rem 0 0.8rem;
+  font-size: 1.1rem;
+}
+
+.expertise-list {
+  margin: 0 0 1.6rem;
+  padding-left: 1.2rem;
+  list-style: disc;
+}
+
+.expertise-list li {
+  margin-bottom: 0.35rem;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
 .about-portrait {
   margin-top: clamp(-11rem, -12vw, -6rem);
   padding: 0.55rem;
@@ -837,6 +875,14 @@ button {
   font-size: 1rem;
   font-weight: 700;
   text-align: center;
+}
+
+.portrait-location {
+  display: block;
+  margin-top: 0.15rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 400;
 }
 
 /* --------------------------------------------------------------------------
