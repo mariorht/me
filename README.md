@@ -1,57 +1,75 @@
-# My Personal Website - Based on Kross Jekyll
+# Sitio personal de Mario Roos
 
-This is my personal website, designed to showcase my projects, experience, and more. It is based on the **Kross Jekyll Creative Portfolio Template**, a clean and minimalist design ported from the [Kross HTML Template](https://themefisher.com/products/kross/).
+Web estática escrita a mano con HTML, CSS y un poco de JavaScript. No hay generador de sitios, dependencias, compilación ni `npm install`: los archivos del repositorio son exactamente los que se publican.
 
-## Demo
+## Estructura
 
-You can visit my website here: [https://mariorht.github.io/](https://mariorht.github.io/)
+```
+.
+├── index.html                  # Portada
+├── about/index.html            # Sobre mí
+├── experience/index.html       # Experiencia y formación
+├── publications/index.html     # Publicaciones y preprints
+├── blog/
+│   ├── index.html              # Listado del blog
+│   └── leonardo-aerial-screw/  # Una entrada del blog
+│       └── index.html
+├── 404.html                    # Página de error
+├── assets/
+│   ├── css/styles.css          # Todos los estilos
+│   ├── js/main.js              # Menú móvil y cabecera con scroll
+│   ├── fonts/                  # Roboto y Playfair Display
+│   └── images/                 # Imágenes del sitio
+├── CNAME                       # Dominio de GitHub Pages
+├── .nojekyll                   # Publicar archivos tal cual, sin procesarlos
+├── sitemap.xml
+└── robots.txt
+```
 
-## About the Template
+Cada página es un `index.html` dentro de su carpeta, así las URLs quedan limpias (`/about/`, `/blog/`, etc.). Los archivos `about.html`, `experience.html`, `blog.html`, etc. de la raíz son redirecciones para no romper enlaces antiguos.
 
-The **Kross Jekyll** template was created by [Themefisher](https://themefisher.com). It provides a professional and responsive solution for personal or creative portfolios. I have customized this template to suit my needs.
+## Ver el sitio en local
 
-## Customization
+No hace falta instalar nada. Desde la raíz del repositorio:
 
-I’ve tailored several sections of the template to reflect my personal style and work. If you want to use this template, here are the sections you can easily customize through the `_data/settings.yml` file without modifying any HTML or CSS:
+```bash
+python3 -m http.server 8000
+```
 
-- General theme settings (name, logo, email, phone, address).
-- Hero Section.
-- About Section.
-- Skills Section.
-- Experience Section.
-- Education Section.
-- Portfolio Section.
-- Testimonials Section.
-- Contact Section.
+Abre <http://localhost:8000>. Es importante usar un servidor: abrir `index.html` directamente con `file://` no resuelve bien las rutas absolutas (`/assets/...`).
 
-For more information on how to customize the template, check out the official repository: [Kross Jekyll GitHub](https://github.com/themefisher/kross-jekyll).
+## Editar contenido
 
+- **Estilos**: todo está en `assets/css/styles.css`, con variables al principio para colores, tipografías y sombras.
+- **Portada**: `index.html`. Las secciones están separadas por comentarios y tienen sus propios bloques.
+- **Textos de páginas**: edita directamente el HTML de cada carpeta.
+- **Curriculum**: la experiencia y la formación están en `experience/index.html`. En la portada hay un resumen de la experiencia y de los estudios; si cambias algo importante, actualiza también ese resumen.
+- **Publicaciones**: `publications/index.html`.
+- **Email y redes**: el pie de página se repite en cada HTML. El email está en el `footer` y los iconos de GitHub/LinkedIn enlazan a los perfiles.
 
-## How to Use the Template
+## Añadir una entrada al blog
 
-1. **Clone or Fork the Repository**: You can fork the Kross Jekyll repository and adapt it to your needs.
-2. **Enable GitHub Pages**: Once you’ve made your changes, enable GitHub Pages in your repository settings. This will make your site live at `https://yourusername.github.io/your-repo-name/`.
-3. **Customization**: Edit the `_data/settings.yml` file to add your information and personalize the content.
-4. **Local Server**: If you want to preview changes locally before publishing:
-   - Install dependencies using Docker:
-     ```bash
-     docker-compose run bundler
-     ```
-   - Start the local server with:
-     ```bash
-     docker-compose up
-     ```
-   - Open your browser and navigate to `http://localhost:4000` to see your site running.
+1. Crea una carpeta con un nombre corto y sin espacios, por ejemplo `blog/mi-proyecto/`.
+2. Copia `blog/leonardo-aerial-screw/index.html` dentro y cambia el título, la fecha, la imagen y el contenido.
+3. Añade la tarjeta de la entrada en `blog/index.html` y, si quieres que aparezca en la portada, en la sección `#blog` de `index.html`.
+4. Añade la URL a `sitemap.xml`.
 
+## Imágenes
 
-## Acknowledgments
+Las fotos del blog están en WebP y limitadas a 1600 px de ancho. Para mantener el sitio rápido, conviene respetar ese tamaño:
 
-Special thanks to [Themefisher](https://themefisher.com) for developing such a versatile and well-designed template. The code is licensed under the [MIT License](https://github.com/themefisher/kross-jekyll/blob/main/LICENSE), and the demo images are for demonstration purposes only.
+```bash
+python3 -c "from PIL import Image; im = Image.open('foto.png'); im.thumbnail((1600, 1600)); im.save('foto.webp', 'WEBP', quality=84)"
+```
 
----
+## Publicación
 
-### License
+El sitio se publica con GitHub Pages desde la rama `main`:
 
-- **Code**: Distributed under the [MIT License](https://github.com/themefisher/kross-jekyll/blob/main/LICENSE).
-- **Demo Images**: The demo images used in the original template are licensed separately and not included in this repository.
+1. El dominio está en `CNAME`.
+2. `.nojekyll` indica a GitHub Pages que sirva los archivos tal cual.
+3. No hay que ejecutar ningún build: al hacer push, los cambios están publicados.
 
+## Fuentes
+
+Roboto y Playfair Display se sirven desde `assets/fonts/` (subconjunto latino, licencia SIL Open Font License), así que la web no depende de Google Fonts.
