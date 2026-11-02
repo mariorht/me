@@ -9,7 +9,7 @@ Web estática escrita a mano con HTML, CSS y un poco de JavaScript. No hay gener
 ├── index.html                  # Portada
 ├── about/index.html            # Sobre mí
 ├── experience/index.html       # Experiencia y formación
-├── publications/index.html     # Publicaciones y preprints
+├── publications/index.html     # Publicaciones
 ├── blog/
 │   ├── index.html              # Listado del blog
 │   └── leonardo-aerial-screw/  # Una entrada del blog
